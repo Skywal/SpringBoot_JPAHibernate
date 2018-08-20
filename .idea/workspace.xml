@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74fd0529-c3d7-470a-ad2b-d017f7e11b84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Repos/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Repos/UserRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="74fd0529-c3d7-470a-ad2b-d017f7e11b84" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +24,7 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="html" value="137" />
-          <entry key="java" value="993" />
+          <entry key="java" value="1753" />
           <entry key="mustache" value="84" />
           <entry key="properties" value="40" />
           <entry key="txt" value="17" />
@@ -37,7 +35,7 @@
         <counts>
           <entry key="HTML" value="137" />
           <entry key="Handlebars/Mustache" value="84" />
-          <entry key="JAVA" value="993" />
+          <entry key="JAVA" value="1753" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="Properties" value="40" />
           <entry key="XML" value="495" />
@@ -46,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="mustache" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="1" />
@@ -56,7 +54,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Handlebars/Mustache" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -113,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/DAO/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -130,6 +128,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,8 +165,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -179,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/DAO/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Repos/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -460,16 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Repos/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -495,6 +496,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Repos/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bloom/mvcspring/tut/Controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
