@@ -1,20 +1,25 @@
 package com.bloom.mvcspring.tut.DAO;
 
+import javax.persistence.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+/**
+ * https://habr.com/post/248541/
+ */
 
-@Entity // This tells Hibernate to make a table out of this class
-public class User {
+@Entity
+@Table(name = "USER")
+public class User{
+
     //region fields
     @Id
+    @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
+    @Column(name = "NAME")
     private String name;
 
+    @Column(name = "EMAIL")
     private String email;
     //endregion
 
